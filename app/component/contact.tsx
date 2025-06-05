@@ -11,7 +11,7 @@ function Contact() {
           <ContactInfo />
 
           {/* Form Panel */}
-          <div className="md:w-2/3 w-full">
+          <div className="md:w-2/3 p-6 w-full">
             <ContactDetail />
           </div>
         </div>
