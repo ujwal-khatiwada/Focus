@@ -4,7 +4,8 @@ const ContactDetail = () => {
   return (
     <div>
       <div className="w-full bg-gradient-to-b from-blue-600 to-blue-650 rounded-xl mt-8 md:mt-0 md:px-10 col-span-4 h-full p-5 text-white">
-        <form action="#">
+        <form action="https://formspree.io/f/xgvzawng"
+          method="POST">
           <div className="mb-8 grid gap-4 lg:grid-cols-2">
             <div className="relative w-full min-w-[200px] h-12 mb-3 md:mb-0">
               <input
