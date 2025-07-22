@@ -68,7 +68,9 @@ const ContactDetail = () => {
                     className="peer relative appearance-none w-5 h-5 border rounded-full border-blue-300 cursor-pointer transition-all checked:border-blue-100 checked:bg-blue-100"
                     id={`interest-${index}`}
                     type="radio"
-                    name="type"
+                    name="interest" 
+                    value={label} 
+                    required
                   />
                   <span className="absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 pointer-events-none opacity-0 peer-checked:opacity-100 transition-opacity text-blue-700">
                     <svg
