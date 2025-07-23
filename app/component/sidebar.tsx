@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sidebar= () => {
   return (
-    <div className="card h-[calc(1000vh-10rem)] w-72 bg-gray-500 p-5 shadow-md shadow-purple-200/50 rounded-md flex flex-col">
+    <div className="card h-[calc(100vh-10rem)] w-72 bg-gray-500 p-5 shadow-md shadow-purple-200/50 rounded-md flex flex-col">
       <ul className="w-full h-full flex-wrap flex flex-col">
         <div className="flex flex-col gap-2">
           {/* Services */}
