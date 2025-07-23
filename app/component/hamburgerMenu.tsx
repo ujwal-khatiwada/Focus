@@ -33,7 +33,7 @@ export default function HamburgerMenu() {
           />
           
           {/* Sidebar */}
-          <div className="fixed top-16 right-0 w-72 z-50 rounded bg-amber-500 shadow-lg transition-transform duration-300 ease-in-out">
+          <div className="fixed top-20 right-0 w-72 z-50 rounded bg-amber-500 shadow-lg transition-transform duration-300 ease-in-out">
             <Sidebar />
           </div>
         </>
