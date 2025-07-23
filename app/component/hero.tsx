@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ContactButton from './callnow';
+import Callnow from './callnow';
 
 export default function Hero() {
   return (
@@ -15,7 +15,7 @@ export default function Hero() {
               Focus Point Driving School is dedicated to helping you become a confident, safe, and skilled driver. We offer clear, personalized lessons in a supportive environment to make learning to drive easy and stress-free. Your journey to safe driving starts here.
             </p>
           </div>
-          <ContactButton/>
+          <Callnow/>
         </div>
         <div className="flex flex-1 justify-center items-end p-0 m-0">
           <Image
