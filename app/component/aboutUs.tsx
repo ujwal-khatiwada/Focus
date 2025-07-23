@@ -1,14 +1,16 @@
+import Link from "next/link";
 import React from "react";
+import Inquiry from "./inquiry";
 
 const AboutUs = () => {
   return (
-    <section className="bg-white text-gray-800 py-16 px-6 md:px-20">
+    <section id="aboutus" className="bg-white text-gray-800 py-16 px-6 md:px-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-6 text-center text-blue-700">
           About Us
         </h2>
 
-        <p className=" mx-auto w-4xl text-lg mb-6 text-center">
+        <p className=" mx-auto md:w-4xl text-lg mb-6 text-center">
           Welcome to <span className="font-semibold">Focus Point Driving School</span>,
           your trusted partner in safe and confident driving. We’ve helped many students across Jhapa master the
           skills to become responsible drivers.
@@ -61,15 +63,10 @@ const AboutUs = () => {
 
             <div className="mt-8">
               <p className="text-md mb-4">
-                Join hundreds of students who trusted ProDrive Academy to start
+                Join hundreds of students who trusted Focus Point Driving School to start
                 their driving journey.
               </p>
-              <a
-                href="/contact"
-                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-              >
-                Book Your First Lesson
-              </a>
+              <Inquiry/>
             </div>
           </div>
         </div>
