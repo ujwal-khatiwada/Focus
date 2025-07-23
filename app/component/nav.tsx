@@ -1,12 +1,12 @@
 
-
+import Link from 'next/link';
 import React from "react";
 import HamburgerMenu from './hamburgerMenu';
 
 const Nav = () => {
   return (
     <div>
-      <nav className="block py-4 backdrop-saturate-200 backdrop-blur-2xl bg-opacity-90 border-white/80 w-full max-w-full rounded-none px-4 bg-white border-0 sticky top-0 z-50 shadow-md">
+      <nav className="block py-4 h-20 backdrop-saturate-200 backdrop-blur-2xl bg-opacity-90 border-white/80 w-full max-w-full rounded-none px-4 bg-white border-0 sticky top-0 z-50 shadow-md">
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo */}
           <div>
@@ -21,7 +21,7 @@ const Nav = () => {
           {/* Nav Links */}
           <ul className="ml-10 hidden items-center gap-8 lg:flex">
             <li>
-              <a
+              <Link
                 href="#services"
                 className="flex items-center gap-2 text-base font-medium text-blue-800 hover:text-blue-900 transition-colors"
               >
@@ -34,11 +34,11 @@ const Nav = () => {
                   <path d="M5.566 4.657A4.505 4.505 0 016.75 4.5h10.5c.41 0 .806.055 1.183.157A3 3 0 0015.75 3h-7.5a3 3 0 00-2.684 1.657zM2.25 12a3 3 0 013-3h13.5a3 3 0 013 3v6a3 3 0 01-3 3H5.25a3 3 0 01-3-3v-6zM5.25 7.5c-.41 0-.806.055-1.184.157A3 3 0 016.75 6h10.5a3 3 0 012.683 1.657A4.505 4.505 0 0018.75 7.5H5.25z" />
                 </svg>
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#about"
+              <Link
+                href="#aboutus"
                 className="flex items-center gap-2 text-base font-medium text-blue-800 hover:text-blue-900 transition-colors"
               >
                 <svg
@@ -54,10 +54,10 @@ const Nav = () => {
                   />
                 </svg>
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#contact"
                 className="flex items-center gap-2 text-base font-medium text-blue-800 hover:text-blue-900 transition-colors"
               >
@@ -74,19 +74,19 @@ const Nav = () => {
                   />
                 </svg>
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
 
           {/* Login Button */}
           <div className="hidden w-[185px] items-center gap-2 lg:flex">
-            <a href="#login" target="_blank">
+            <Link href="/login">
               <button
                 className="py-3 px-6 rounded-lg bg-blue-600 text-white shadow-md hover:bg-blue-700 transition"
               >
                 Login
               </button>
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu */}
